@@ -1,16 +1,33 @@
 {
-  "name"         : "node-web-scrape",
-  "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
-  "repository"   : {
-    "type" : "git",
-    "url"  : "https://github.com/scotch-io/node-web-scraper"
+  "name": "node-web-scraper",
+  "version": "1.0.0",
+  "description": "node-web-scraper ================",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "debug": "node-inspector & nodemon --debug"
   },
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotmaike/node-web-scraper.git"
+  },
+  "author": "Miguel Murillo Ceballos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotmaike/node-web-scraper/issues"
+  },
+  "homepage": "https://github.com/dotmaike/node-web-scraper#readme",
+  "dependencies": {
+    "async": "^2.3.0",
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "node-inspector": "latest",
+    "nodemon": "latest",
+    "npm-run-all": "latest"
   }
 }
