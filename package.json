@@ -1,7 +1,7 @@
 {
   "name": "node-web-scraper",
   "version": "1.0.0",
-  "description": "node-web-scraper ================",
+  "description": "node-web-scraper",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
